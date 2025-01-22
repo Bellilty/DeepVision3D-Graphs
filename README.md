@@ -35,25 +35,19 @@ GeoDeep3D-GraphModels/
 │   ├── src/                        # Codebase for PointNet model
 │   │   ├── main.py                 # Training and evaluation script
 │   │   ├── model.py                # PointNet architecture
-│   │   ├── utils.py                # Utility functions
-│   │   ├── requirements.txt        # Dependencies
-│   ├── results/                    # Reports and visual results
-│   │   ├── report.pdf              # Task-specific report
-│   │   ├── success-examples/       # Correct classifications
-│   │   ├── failure-examples/       # Misclassifications
-│   ├── README.md                   # Task-specific README
+│   │   ├── requirements1.txt        # Dependencies
+│   │   ├── report.doc              # Task-specific report
 ├── graph-classification/
 │   ├── src/                        # Codebase for GCN model
 │   │   ├── main.py                 # Training and evaluation script
 │   │   ├── model.py                # GCN architecture
-│   │   ├── utils.py                # Utility functions
-│   │   ├── requirements.txt        # Dependencies
-│   ├── results/                    # Reports and predictions
-│   │   ├── report.pdf              # Task-specific report
+│   │   ├── requirements2.txt        # Dependencies
+│   │   ├── report.doc              # Task-specific report
 │   │   ├── predictions.csv         # Test predictions
+│   ├── results/                    # Reports and predictions
 │   ├── README.md                   # Task-specific README
 ├── README.md                       # Main project README
-├── LICENSE                         # License file
+
 ```
 
 ---
@@ -113,9 +107,5 @@ python main.py
 - Simon Bellilty (345233563)
 - Roni Fridman (205517097)
 
----
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
